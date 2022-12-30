@@ -1,0 +1,366 @@
+/*------------------MOVIL- INICIO----------------*/ 
+@media (max-width: 1500px) and (min-width: 960px) {
+*{
+	margin:0;
+	padding: 0;
+}
+#clearfix	{
+
+	float: none;
+	clear: both;
+	}
+
+	#global{
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 30px;
+	padding: 25px;
+	background: white;
+	box-shadow: 0px 0px 2px gray;
+}
+#logo  {
+	display: block;
+	font-family: verdana, arial;
+	font-size:15px;
+	letter-spacing:4px;
+	line-height: 50px;
+	color: white;
+	text-align:center;
+	width:100%;
+	height:50px;
+	margin-bottom: 20px;
+	float: left;
+	text-transform: uppercase;
+}
+#menu	{
+
+	font-family: Helvetica, arial;
+	
+	width: 100%;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+
+}
+#menu ul {
+
+	line-height: 46px;
+	list-style: none;
+}
+#menu a {
+	display: block;
+	color: white;
+	text-decoration:none;
+	padding-left: 30px;
+	padding-right: 30px; 
+}
+
+.bx-wrapper, .bx-viewport {
+	height: 120px !important;
+	
+	width: 100%;
+}
+.subir {
+	text-decoration: none;
+	display: block;
+	float: right; 
+	background-image: 
+}
+	article p {
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	padding: 15px;
+	color:white;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background: #ea8bb3;
+}
+footer {
+	font-family: Helvetica, Arial;
+	color: white;
+	height: 47px;
+	background: rgba(51, 51, 51, 0.70);
+	margin: 0px auto;
+	width: 65%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 50px;
+	line-height: 47px;
+	text-align: center;
+}
+
+
+
+/*------------------MOVIL- SOBRE MI----------------*/ 
+
+#h2{
+	font-family: Helvetica, Arial;
+	color: white;
+	background-color: #ea8bb3;
+	margin: 0px auto;
+	width: 65%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 50px;
+	line-height: 47px;
+	text-align: center;
+}
+#sobre img{
+	width: 100%;
+	left: 0px;
+	position: relative;
+	right: 0px;
+	top: 50px;
+}
+#sobre p{
+	font-size: 20px;
+	
+	background-color: #ea8bb3;
+	color:white;
+}
+#about h4{
+	width: 100%;
+	position: relative;
+	left: 0px;
+	font-family: Helvetica, Arial;
+	color: white;
+	background-color: #ea8bb3;
+	margin: 0px auto;
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	line-height: 47px;
+	text-align: center;
+}
+#about{
+position: relative;
+width: 100%;
+top: 100px;
+}
+#about img {
+	width: 50%;
+	position: relative;	
+	right: 0px;
+	}
+	/*Widget*/
+.widget_blog_subscription {
+	display: block;
+	margin: 50px auto;
+	width: 60%;
+	max-width: 490px;
+	min-width: 320px;
+	position: relative;
+	overflow: hidden;
+	background-color: ;
+}
+.widget_blog_subscription p {
+	margin: 0;
+	text-align: center;
+}
+
+#subscribe-field{
+	background-color: #F6F6F2; 
+}
+.widget_blog_subscription p:first-child {
+	margin: 40px 15px 0;
+	color: #ea8bb3;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	letter-spacing: 1px;
+}
+.widget_blog_subscription input[type="text"] {
+	margin: 45px 30px;
+	color: #ea8bb3;
+	padding: 25px 15px !important;
+	text-align: center;
+	width: 100% !important;
+	max-width: calc(100% - 90px);
+	outline: none;
+	border: 0;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.widget_blog_subscription input[type="text"]::-webkit-input-placeholder {
+	color: #ea8bb3;
+}
+.widget_blog_subscription input[type="text"]:-moz-placeholder {
+	color: #ea8bb3;
+}
+.widget_blog_subscription input[type="text"]::-moz-placeholder {
+	color: #ea8bb3;
+}
+.widget_blog_subscription input[type="text"]:-ms-input-placeholder {
+	color: #ea8bb3;
+}
+.widget_blog_subscription input[type="submit"] {
+	margin: 0;
+	background-color: #ea8bb3;
+	color: #fff;
+	padding: 25px 15px !important;
+	text-align: center;
+	width: 100%;
+	max-width: 100%;
+	outline: none;
+	border: 0;
+	text-transform: uppercase;
+	font-size: 12px;
+	cursor: pointer;
+	-webkit-transition: .1s all ease-in-out;
+	-moz-transition: .1s all ease-in-out;
+	-o-transition: .1s all ease-in-out;
+	transition: .1s all ease-in-out;
+}
+.widget_blog_subscription input[type="submit"]:hover {
+	background-color: pink;
+}
+
+#subscribe-blog{
+	position: relative;
+	bottom: 43px;
+
+}
+
+
+
+
+
+
+
+/*------------------MOVIL- Contactos----------------*/ 
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="number"],
+select{
+ 
+	padding: 5px;
+	border-radius: 2px;
+	border:1px solid #ccc;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+form input[type="submit"]{
+	background: #eee;
+	padding: 20px;
+	border: 1px solid #ccc;
+	color: #333;
+	cursor: pointer;
+}
+
+#form_contact{
+	width: 100%;
+	margin-top: 15px;
+	font-family: Helvetica, Arial;
+}
+#form_contact label{
+	display: block;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.form-error{
+
+/*float: right;*/
+
+font-size: 11px
+background: red;
+color: red;
+padding: 10px
+width: 100%;
+
+}
+#sidebar{
+	font-family: Helvetica, Arial;
+	height: 34%;
+
+}
+#sidebar img {
+	width: 350px;
+	padding-left: 0px;
+
+}
+
+#sidebar p{
+	font-size: 15px;
+	text-align: justify;
+}
+
+.button-more	{
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	padding: 15px;
+	color:white;
+	text-decoration: none;
+	margin-top: 10px;
+	width: 70px;
+	margin-bottom: 20px;
+	margin-left: 50%;
+}
+#button-more	{
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	padding: 15px;
+	color:white;
+	text-decoration: none;
+	margin-top: 10px;
+	width: 70px;
+	margin-bottom: 20px;
+
+}
+#span{
+	width: 100%;
+	position: relative;
+	left: 80px;
+	font-family: Helvetica, Arial;
+	color: white;
+	background-color: #ea8bb3;
+	margin: 0px auto;
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 50px;
+	line-height: 47px;
+	text-align: center;
+
+}
+#rows{
+
+	position: relative;
+	margin: 0px; 
+	width: 100%; 
+	height: 229px;
+
+}
+
+
+#numero {
+	display: inline-block;
+	font-size: 20px;
+	position: relative;
+	bottom: 200px; 
+	left: 400px;
+	color: white;
+	background-color: #ea8bb3;
+
+	font-family: Helvetica, Arial;
+	
+	
+
+	}
+	#msg {
+		
+	color: white;
+	background-color: green;
+	width: 26%;
+	font-family: Helvetica, Arial;
+}
+}

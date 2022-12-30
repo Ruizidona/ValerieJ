@@ -1,0 +1,41 @@
+body{
+	background: url('../img/red.jpg');
+	width: 100%;
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+
+	
+}
+#logo  {
+	
+	background:#ea8bb3;
+	}
+
+#menu ul li:hover{
+	background: #ea8bb3;
+}
+
+.button-more	{
+	
+	background: #ea8bb3;
+	}
+	#button-more	{
+	
+	background: #ea8bb3;
+	}
+
+#acordeon #ui-id-1{
+	background-color: #ea8bb3;
+	color: white;
+}
+
+#acordeon #ui-id-3{
+	background-color: #ea8bb3;
+	color: white;
+}
+
+#acordeon #ui-id-5{
+	background-color: #ea8bb3;
+	color: white;
+}
+
